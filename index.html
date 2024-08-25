@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text">
+        <h1>Aplando con doce</h1>
+    </div>
+    <div class="cuerpo">
+        <div class="player">
+            <audio id="audio" src="audio/Nueva grabación 20.m4a"></audio>
+            <audio id="audio" src="audio/Nueva grabación 21.m4a"></audio>
+            <audio id="audio" src="audio/Nueva grabación 23.m4a"></audio>
+            <audio id="audio" src="audio/Nueva grabación 24.m4a"></audio>
+            <audio id="audio" src="audio/Nueva grabación 25.m4a"></audio>
+            <audio id="audio" src="audio/Nueva grabación 28.m4a"></audio>
+            <audio id="audio" src="audio/Nueva grabación 34.m4a"></audio>
+            <div class="controls">
+                <button id="prev">Prev</button>
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="next">Next</button>
+                <input type="range" id="progress" value="0" max="100">
+            </div>
+        </div>
+    </div>
+    <div class="playlist">
+        <ul>
+            <li data-src="audio/Nueva grabación 20.m4a">Audio 1</li>
+            <li data-src="audio/Nueva grabación 21.m4a">Audio 2</li>
+            <li data-src="audio/Nueva grabación 23.m4a">Audio 3</li>
+            <li data-src="audio/Nueva grabación 24.m4a">Audio 4</li>
+            <li data-src="audio/Nueva grabación 25.m4a">Audio 5</li>
+            <li data-src="audio/Nueva grabación 28.m4a">Audio 6</li>
+            <li data-src="audio/Nueva grabación 34.m4a">Audio 7</li>
+        </ul>
+    </div>
+
+
+
+
+
+    <script src="repro.js"></script>
+</body>
+</html>
+
