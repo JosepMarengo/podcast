@@ -27,6 +27,9 @@ button {
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+    width: 200px;
+    height: 120px;
+    font-size: 2vh;
 }
 
 button:hover {
@@ -50,6 +53,7 @@ input[type="range"] {
 
 .playlist {
     margin-top: 20px;
+    font-size: 2vh;
 }
 
 .playlist ul {
