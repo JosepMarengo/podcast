@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const progress = document.getElementById('progress');
     const playlistItems = document.querySelectorAll('.playlist li');
 
-    const tracks = ['audio/Nueva grabación 20.m4a', 'audio/Nueva grabación 21.m4a', 'audio/Nueva grabación 23.m4a', 'audio/Nueva grabación 24.m4a', 'audio/Nueva grabación 25.m4a', 'audio/Nueva grabación 28.m4a','audio/Nueva grabación 34.m4a'];
+    const tracks = ['audio/Nueva grabación 20.m4a', 'audio/Nueva grabación 21.m4a', 'audio/Nueva grabación 23.m4a', 'audio/Nueva grabación 24.m4a', 'audio/Nueva grabación 25.m4a', 'audio/Nueva grabación 28.m4a','audio/Nueva grabación 34.m4a', 'audio/Nueva grabación 36.m4a', 'audio/Nueva grabación 37.m4a', 'audio/Nueva grabación 41.m4a', 'audio/Nueva grabación 42.m4a', 'audio/Nueva grabación 43.m4a'];
     let currentTrack = 0;
 
     playButton.addEventListener('click', () => {
